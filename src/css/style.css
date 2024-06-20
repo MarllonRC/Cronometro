@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #9f6bff, #6119cc);
+    margin: 0; /* Adicionado para garantir que não haja margem extra */
+}
+
+#stopwatch {
+    background-color: #262626;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center; /* Alinhamento centralizado */
+}
+
+#timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    height: 250px;
+    width: 250px;
+    border: 3px solid #9f6bff;
+    border-radius: 50%; /* Corrigido para 50% para um círculo completo */
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff; /* Cor corrigida para branco */
+    margin-bottom: 1.5rem;
+    padding: 1rem; /* Reduzido o padding para manter proporções */
+}
+
+#actions {
+    display: flex;
+    justify-content: center; /* Centralizar os botões horizontalmente */
+    gap: 0.5rem;
+    margin-top: 1rem; /* Espaçamento superior para separar do timer */
+}
+
+#actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px; /* Largura mínima para os botões */
+    height: 40px;
+    padding: .6em;
+    font-size: 1rem;
+    border-radius: 4px; /* Reduzido o border-radius para 4px */
+    border: none;
+    background-color: #e0e7ff;
+    color: #262626;
+    cursor: pointer;
+    transition: background-color .2s ease-in;
+}
+
+#actions button:hover {
+    background-color: #c4b5fd;
+}
+
+#mark-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color: #ffffff;
+}
+
+#mark-list p:first-child {
+    margin-top: 1.5rem;
+}
