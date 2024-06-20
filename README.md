@@ -1,5 +1,5 @@
-Gostaria de compartilhar um projeto onde coloquei em prática meus conhecimentos em HTML, CSS e JavaScript.
+Apresento um cronômetro desenvolvido em HTML, CSS e JavaScript, criado com orientação e foco nos principais recursos de um cronômetro: iniciar a contagem, realizar marcações de tempo, pausar e reiniciar a contagem.
 
-No entanto, ao hospedá-lo no GitHub, surgiram alguns desafios com a hospedagem que estou trabalhando para resolver.
+Este projeto foi uma excelente oportunidade para aplicar meus conhecimentos e habilidades em programação web.
 
-Você pode conferir como ficou acessando o projeto através do link: Cronômetro.
+Você pode conferir o resultado final acessando o projeto através do link: Cronômetro.
